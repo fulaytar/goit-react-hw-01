@@ -1,7 +1,6 @@
 import css from './TransactionHistory.module.css'
 
 export default function TransactionHistory(props) {
-    console.log(props.items)
     return (
         <table className={css.table}>
   <thead className={css.thead}>

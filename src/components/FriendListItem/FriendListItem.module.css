@@ -1,0 +1,25 @@
+.listElement {
+    border: 2px solid #010101;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 14px;
+    text-align: center;
+}
+.online {
+    color: #228E21;
+}
+
+.offline {
+    color: #FF5453;
+}
+
+.imageAvatar {
+    margin-bottom: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.friendsName {
+    margin-bottom: 4px;
+}
