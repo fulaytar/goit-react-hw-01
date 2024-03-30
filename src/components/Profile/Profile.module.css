@@ -14,6 +14,8 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    margin-top: 12px;
+    margin-bottom: 22px;
 }
 .container_profile{
     display: flex;

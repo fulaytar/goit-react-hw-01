@@ -1,0 +1,62 @@
+.table{
+    margin-left: auto;
+    margin-top: 18px;
+    margin-right: auto;
+    border-spacing: 0;
+    margin-bottom: 18px;
+}
+.namesHistory{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2A2A2A;
+    color: #ffffff;
+}
+.namesHistoryItem{
+    flex:1;
+    display: inline-block;
+    padding: 4px;
+    width: 120px;
+    font-weight: 600;
+}
+.thead{
+display: block;
+}
+.tbody{
+    display: block;
+}
+
+.tdType{
+    display: inline-block;
+    width: 120px;
+    padding-left: 22px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    border: 1px solid #000000;
+}
+.tdAmount{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #000000;
+}
+.tdCurrency{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    border: 1px solid #000000;
+}
+.tr:nth-child(even) {
+    background-color: #D3D3D3;
+    /* Колір для парних рядків */
+}
+
+.tr:nth-child(odd) {
+    background-color: #ffffff;
+    /* Колір для непарних рядків */
+}
