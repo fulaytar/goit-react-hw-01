@@ -1,11 +1,11 @@
 import css from './FriendList.module.css';
 import FriendListItem from '../FriendListItem/FriendListItem'
 
-export default function FriendList(props) {
+export default function FriendList({ friends }) {
     return (
         <ul className={css.list}>
             {
-            props.friends.map(element => {
+            friends.map(element => {
                 return (
                     <FriendListItem key={element.id} friends={element} />
                 )
